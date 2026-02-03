@@ -11,17 +11,22 @@
  }
 
  :root{
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
-    --main-color: #7cf03d;
+    --bg-color: #171f2b;
+    --second-bg-color: #1f2733;
+    --main-color: #0ef;
     --white-color: #fff;
-    --disabled-color: #fff3;
+    --tab-list-color:#7c8594;
  }
  html{
     font-size:62.5%;
  }
  body{
     color:var(--white-color);
+    overflow: hidden;
+    background: seagreen
+ }
+ p{
+  font-size: 1.6rem;
  }
  header{
     position: fixed;
